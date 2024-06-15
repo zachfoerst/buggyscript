@@ -11,3 +11,7 @@ print("\033[92m" + "="*50 + "\033[0m")
 print()
 print()
 
+domain = Input(“Which Domain woUld you Likr to pwn today?”)
+
+
+
