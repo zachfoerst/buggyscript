@@ -17,12 +17,14 @@ print()
 domain = input("Which domain would you like to look at today?")
 
 subsSaved = domain + "subs.txt"
+
 def get_subs():
     subdomains = sublist3r.main (domain, 40, subsSaved, ports= None, silent=False, verbose= False, enable_bruteforce= False, engines=None)
 
-print(subsSaved)
-subs_list = open(subsSaved).readlines()
+get_subs()
 
+subs_list = open().readlines()
+print(subs_list)
 
 driver = webdriver.Firefox()
 driver.get()
