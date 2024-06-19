@@ -1,13 +1,4 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium import webdriver
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import sublist3r
-
-binary = FirefoxBinary()
-driver = webdriver.Firefox(firefox_binary=binary)
 
 
 
@@ -34,6 +25,5 @@ get_subs()
 subs_list = open(subsSaved).readlines()
 print(subs_list)
 
-driver = webdriver.Firefox()
-driver.get()
+
 
